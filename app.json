@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/home/home",
+    "pages/pcenter/pcenter",
+    "pages/core/card/card",
+    "pages/core/cj/cj",
+    "pages/core/classroom/classroom",
+    "pages/core/kb/kb",
+    "pages/core/booksearch/booksearch" ,
+    "pages/core/txl/txl",
+    "pages/core/exam/exam",
+    "pages/core/lecture/lecture",
+    "pages/core/lost_find/lost_find",
+    "pages/core/library/library",
+    "pages/core/help/help",
+    "pages/core/fk/fk",
+    "pages/core/notify/notify",
+    "pages/core/money/money",
+    "pages/personal/personal",
+    "pages/personal/zfLogin/zfLogin",
+    "pages/personal/jpLogin/jpLogin",
+    "pages/personal/tyLogin/tyLogin",
+    "pages/accessResults/accessResults"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#7acfa6",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "We工商",
+    "backgroundColor": "#7acfa6",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "black",
+    "borderStyle": "#000",
+    "selectedColor": "#9999FF",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "images/news.png",
+        "selectedIconPath": "images/news@select.png",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home@select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user@select.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+<view class="body">
+  <view class="view1">
+    <view class='title'>教务处绑定</view>
+    <view class="uesrInput {{userid_focus ? 'active' : ''}}">
+      <text class="input-label">帐号</text>
+      <input type="number" cursor-spacing="30" id="userid" maxlength="10" placeholder="请输入你的账号" bindinput="useridInput" bindfocus="inputFocus" bindblur="inputBlur" value='{{userid}}' />
+    </view>
+    <view class="uesrInput {{passwd_focus ? 'active' : ''}}">
+      <text class="input-label">密码</text>
+      <input password="true" cursor-spacing="30" id="passwd" placeholder="初始密码为身份证后6位" bindinput="passwdInput" bindfocus="inputFocus" bindblur="inputBlur" value='{{passwd}}' />
+    </view>
+    <view class="uesrInput {{yzm_focus ? 'active' : ''}}">
+      <text class="input-label">验证码</text>
+      <input type="number" cursor-spacing="30" id="yzm" maxlength="4" placeholder="请输入验证码" bindinput="useryzmInput" bindfocus="inputFocus" bindblur="inputBlur" value='{{yzm}}' />
+    </view>
+    <view class="flex">
+      <image class='image' src="{{imgurl}}"></image>
+      <button bindtap="buttonimage" class='buttonimage' hover-class="color">看不清楚</button>
+    </view>
+    <view class="confirm-btn" hover-class="color" bindtap="mybind">
+      <text>确认绑定</text>
+    </view>
+  </view>
+</view>

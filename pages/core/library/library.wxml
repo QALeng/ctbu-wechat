@@ -1,0 +1,40 @@
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+
+<!--首页，当前借阅-->
+<view hidden="{{currentTab!==0}}">
+  <view wx:for="{{trenewNumber}}" wx:key="unique" class="list0">
+    <view>
+      <view class="libraryText">{{index+1}}.{{title[index]}}</view>
+      <view class="flex">
+        <view class='barCode'>条形码：{{barCode[index]}}</view>
+        <view class="trenewNumber">续借次数：{{trenewNumber[index]}}</view>
+      </view>
+      <view class="flex">
+        <view class='loanTime'>借书时间：{{loanTime[index]}}</view>
+        <view class='returnTime'>归还时间：{{returnTime[index]}}</view>
+      </view>
+    </view>
+    <button bindtap="libraryGet" class="libraryButton">续借</button>
+    <view class='adjust'></view>
+  </view>
+</view>
+
+<!--历史借阅-->
+<view hidden="{{currentTab!==1}}">
+  <view wx:for="{{lenHistory}}" wx:key="unique" class="list2">
+
+    <view class="libraryText">{{index+1}}.{{titleHistory[index]}}</view>
+    <view class="flexs">
+      <view class='loanTimex'>索书号：{{barCodeHistory[index]}}</view>
+      <view class='loanTimex'>借书时间：{{timeHistory[index]}}</view>
+    </view>
+    <view class="flexs">
+      <view class="loanTimex">操作：{{operation[index]}}</view>
+      <view class='loanTimex'>罚款金额：{{fine[index]}}</view>
+    </view>
+    <view class='adjust'></view>
+  </view>
+
+</view>

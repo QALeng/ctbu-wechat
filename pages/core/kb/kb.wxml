@@ -1,0 +1,89 @@
+<view class="title">
+  <view class="weektitle" id="title">
+    月
+  </view>
+  <view class="kb">
+    <text class="weektitle1"> 01\n周一</text>
+    <text class="weektitle1">02\n周二</text>
+    <text class="weektitle1">03\n周三</text>
+    <text class="weektitle1">04\n周四</text>
+    <text class="weektitle1">05\n周五</text>
+    <text class="weektitle1">06\n周六</text>
+    <text class="weektitle1">07\n周日</text>
+  </view>
+</view>
+<view class="kbtitle">
+  <view class="weektitle">
+    <view class="we2"> 第一节</view>
+    <view class="we2"> 第二节</view>
+  </view>
+  <view class="kb">
+    <view class="weektitle2">{{kb1_2[0]}}</view>
+    <view class="weektitle2">{{kb1_2[1]}}</view>
+    <view class="weektitle2">{{kb1_2[2]}}</view>
+    <view class="weektitle2">{{kb1_2[3]}}</view>
+    <view class="weektitle2">{{kb1_2[4]}}</view>
+    <view class="weektitle2">{{kb1_2[5]}}</view>
+    <view class="weektitle2">{{kb1_2[6]}}</view>
+  </view>
+</view>
+<view class="kbtitle">
+  <view class="weektitle">
+    <view class="we2"> 第三节</view>
+    <view class="we2"> 第四节</view>
+  </view>
+  <view class="kb">
+    <view class="weektitle2">{{kb3_4[0]}}</view>
+    <view class="weektitle2">{{kb3_4[1]}}</view>
+    <view class="weektitle2">{{kb3_4[2]}}</view>
+    <view class="weektitle2">{{kb3_4[3]}}</view>
+    <view class="weektitle2">{{kb3_4[4]}}</view>
+    <view class="weektitle2">{{kb3_4[5]}}</view>
+    <view class="weektitle2">{{kb3_4[6]}}</view>
+  </view>
+</view>
+<view class="kbtitle">
+  <view class="weektitle">
+    <view class="we2"> 第五节</view>
+    <view class="we2"> 第六节</view>
+  </view>
+  <view class="kb">
+    <view class="weektitle2">{{kb5_6[0]}}</view>
+    <view class="weektitle2">{{kb5_6[1]}}</view>
+    <view class="weektitle2">{{kb5_6[2]}}</view>
+    <view class="weektitle2">{{kb5_6[3]}}</view>
+    <view class="weektitle2">{{kb5_6[4]}}</view>
+    <view class="weektitle2">{{kb5_6[5]}}</view>
+    <view class="weektitle2">{{kb5_6[6]}}</view>
+  </view>
+</view>
+<view class="kbtitle">
+  <view class="weektitle">
+    <view class="we2"> 第七节</view>
+    <view class="we2"> 第八节</view>
+  </view>
+  <view class="kb">
+    <view class="weektitle2">{{kb7_8[0]}}</view>
+    <view class="weektitle2">{{kb7_8[1]}}</view>
+    <view class="weektitle2">{{kb7_8[2]}}</view>
+    <view class="weektitle2">{{kb7_8[3]}}</view>
+    <view class="weektitle2">{{kb7_8[4]}}</view>
+    <view class="weektitle2">{{kb7_8[5]}}</view>
+    <view class="weektitle2">{{kb7_8[6]}}</view>
+  </view>
+</view>
+<view class="kbtitle">
+  <view class="weektitle">
+    <view class="we2"> 第九节</view>
+    <view class="we2"> 第十节</view>
+  </view>
+  <view class="kb">
+    <view class="weektitle2">{{kb9_10[0]}}</view>
+    <view class="weektitle2">{{kb9_10[1]}}</view>
+    <view class="weektitle2">{{kb9_10[2]}}</view>
+    <view class="weektitle2">{{kb9_10[3]}}</view>
+    <view class="weektitle2">{{kb9_10[4]}}</view>
+    <view class="weektitle2">{{kb9_10[5]}}</view>
+    <view class="weektitle2">{{kb9_10[6]}}</view>
+  </view>
+</view>

@@ -1,0 +1,96 @@
+/* pages/zfLogin/zfLogin.wxss */
+
+.body {
+  margin-left: 0;
+  margin-top: 0;
+  padding-top: 120rpx;
+  width: 750rpx;
+  height: 1334rpx;
+  background-color: rgba(68, 61, 61, 1);
+
+}
+
+.view1 {
+  
+  margin-left: 44rpx;
+  /* margin-top: 240rpx; */
+  width: 662rpx;
+  height: 960rpx;
+  line-height: 40rpx;
+  background-color: rgba(176, 171, 171, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 28rpx;
+  text-align: center;
+  font-family: Arial;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.title{
+margin-left: 120rpx;
+margin-top: 60rpx;
+width: 410rpx;
+height: 66rpx;
+line-height: 52rpx;
+color: rgba(255, 255, 255, 1);
+font-size: 36rpx;
+text-align: center;
+font-family: Arial;
+}
+
+.input-label {
+  color: #888;
+  font-size: 13pt;
+  height: 25rpx;
+  line-height: 25rpx;
+  padding: 0 25rpx;
+  border-right: 1px solid #d8d8d8; 
+}
+
+.uesrInput{
+  display: flex;
+  align-items: center;
+  padding: 25rpx 10rpx;
+  margin: 40rpx 3%;
+  background: rgba(121, 105, 105, 1);
+  border-radius: 5px;
+  border: 2px solid #f4f4f4;
+  transition: all .25s ease-in-out;
+}
+
+.image{
+  width: 45%;
+  height: 100rpx;
+  border-radius: 10rpx;
+  margin: 0 3%;
+}
+
+.buttonimage{
+background-color: rgba(121, 105, 105, 1);
+color: #fff;
+width: 42%;
+  height: 100rpx;
+  border-radius: 10rpx;
+}
+
+.flex{
+  display: flex;
+}
+
+.confirm-btn {
+  font-size: 13pt;
+  line-height: 100rpx;
+  height: 100rpx;
+  background: rgba(121, 105, 105, 1);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  margin: 50rpx 3%;
+}
+
+.color{
+  color: rgb(235, 155, 35);
+}
+
+.active {
+  border: 2px solid rgb(235, 155, 35);
+}

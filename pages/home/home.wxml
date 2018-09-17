@@ -1,0 +1,26 @@
+<view class="content">
+   <view class="img">
+     <image class="icon" src="/images/zybj.jpg" ></image>
+   </view>
+   <!-- <view class="center">
+   <view>页面跳转</view>
+   <view wx:for="{{cores}}"  wx:for-item="core" wx:key="id">
+     <view class="btnGroup">
+       <view class="fa fa-calendar item" style="color:#548687;"></view>
+       <view class="fa fa-file-text-o item" style="color:#EC7357;"></view>
+       <view class="fa fa-building-o item" style="color:#5A9367;"></view>
+       <view class="fa fa-book item" style="color:#EC7357;"></view>
+       <view class="fa fa-clone item" style="color:#9055A2;"></view> 
+     </view>
+   </view>
+  </view>
+  </view> -->
+<view class="center">
+    <block wx:for="{{cores}}" wx:key="item.name">
+     <navigator url="../{{item.url}}" class='home_grid' hover-class="none">
+      <image src="{{item.img}}" class="home_icon"></image>
+      <view class="home_grid_text">{{item.name}}</view>
+     </navigator>
+    </block>
+</view>
+</view>
