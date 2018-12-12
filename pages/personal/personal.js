@@ -6,6 +6,7 @@ Page({
     known:"我需要三件东西：爱情友谊和图书。然而这三者之间何其相通！炽热的爱情可以充实图书的内容，图书又是人们最忠实的朋友。 —— 蒙田",
     color: [],
     title: ["未连接","未连接","未连接"],
+    loginUrl: ""
   },
   thatData: function(res) {
     var color = [];
@@ -31,6 +32,11 @@ Page({
     })
   },
   onLoad: function() {
+    console.log(getApp().onLaunch.name)
+    this.setData({
+      loginUrl: getApp().totalUrl.loginUrl,
+    })
+    
     // 查看是否授权
     wx.getSetting({
       success: function(res) {
@@ -48,10 +54,17 @@ Page({
   bindGetUserInfo: function(e) {
     console.log(e.detail.userInfo)
   },
+  
+  onShow: function () {
+      
+  },
   onReady: function() {
+
+
+    var url = this.data.loginUrl;
     var that = this.thatData;
     wx.request({
-      url: 'http://127.0.0.1:5000/title',
+      url: url+'title',
       success: function(res) {
         console.log(res);
         that(res.data.title);

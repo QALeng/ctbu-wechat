@@ -1,0 +1,7 @@
+<!-- <view class="view">{{screenText}}</view> -->
+<view class="center">
+  <view wx:for="{{screenText}}" wx:key="{{screenText}}"wx:for-item='screenContent' class="view">
+    <!-- 用于放空格 -->
+    <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text> {{screenContent}}
+  </view>
+</view>

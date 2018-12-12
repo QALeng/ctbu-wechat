@@ -1,6 +1,3 @@
 {
-  "navigationBarBackgroundColor": "#73b4ef",
-  "navigationBarTitleText": "图书搜索",
-  "backgroundColor": "#73b4ef",
-  "enablePullDownRefresh": false
+    "navigationBarTitleText": "图书搜索"
 }

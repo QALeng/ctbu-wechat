@@ -16,7 +16,7 @@
         <view class='returnTime'>归还时间：{{returnTime[index]}}</view>
       </view>
     </view>
-    <button bindtap="libraryGet" class="libraryButton">续借</button>
+    <button id="{{index}}"  bindtap="libraryGet" class="libraryButton">续借</button>
     <view class='adjust'></view>
   </view>
 </view>

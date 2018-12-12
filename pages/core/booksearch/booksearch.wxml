@@ -1,0 +1,29 @@
+<view class="top">
+<image class="set" src='/images/bookSearch/set.png' bindtap="setSearch"></image>
+<input class="inputBox" placeholder='请输入图书信息' bindinput='searchInput' value="{{searchContent}}"></input>
+<view class="searchButton" bindtap="searchButton" hover-class='active'>搜索</view>
+</view>
+<view class="searchList">
+  <view class="searchPart" wx:for="{{total}}"  wx:key="{{total}}" wx:for-item="text">
+    <view class="title">
+      <image src="/images/bookSearch/book.png" model='scaleToFill'class="imageBox"></image>
+      {{text[0]}}
+    </view>
+    <view class="author">{{text[1]}}</view>
+    <view class="number">{{text[2]}}</view>
+    <view class="standardCode">{{text[3]}}</view>
+    <view class="pressInfor">{{text[4]}}</view>
+    <view class="bookType">{{text[5]}}</view>
+    <view class="bookType">{{text[6]}}</view>
+    <view class="bookType">{{text[7]}}</view>    
+    <view class="bookType">{{text[8]}}</view>         
+  </view>
+</view>
+<view class="emptyOrFailed">{{feedBackData}}</view>
+<view class="changePage">
+  <view class="{{lastClass}} "bindtap="lastPage">{{lastText}}</view>
+  <view class="{{nowClass}}">{{nowPage}}{{pageNumber}}</view>
+  <view class="{{nextClass}}" bindtap="nextPage">{{nextText}}</view>
+  <input class="{{inputPage}}" value="{{toPage}}" bindinput="toPagesInput" placeholder="{{totalPages}}"></input>
+  <view class="{{confirm}}" bindtap="confirmButton">{{confirmContent}}</view>
+</view>

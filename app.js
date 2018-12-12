@@ -1,6 +1,14 @@
 //app.js
 App({
-  onLaunch: function () {
+  onLaunch: function() {
+    var name;
+    wx.getStorage({ //获取本地缓存
+      key: "name",
+      success: function(res) {
+        console.log(res.data)
+        name = res.data;
+      },
+    })
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -32,6 +40,20 @@ App({
         }
       }
     })
+  },
+  totalUrl: {
+    // bookSearchUrl: "http://127.0.0.1:5000/",
+    // visitUrl: "http://127.0.0.1:5000/",
+    // messageUrl: 'http://127.0.0.1:5000/',
+    // loginUrl:'http://127.0.0.1:5000/'
+    bookSearchUrl: "https://qinge.mynatapp.cc/",
+    visitUrl: "https://qinge.mynatapp.cc/",
+    messageUrl: 'https://qinge.mynatapp.cc/',
+    loginUrl: 'https://qinge.mynatapp.cc/'
+    // bookSearchUrl: "https://qxmu.mynatapp.cc/",
+    // visitUrl: "https://qxmu.mynatapp.cc/",
+    // messageUrl: "https://qxmu.mynatapp.cc/",
+    // loginUrl: "https://qxmu.mynatapp.cc/",
   },
   globalData: {
     userInfo: null

@@ -43,12 +43,12 @@ margin: 20px;
   margin: 5rpx;
 } */
 .center{
-left: 15px;
-top: 200px;
-width: 344px;
-height: 340px;
-line-height: 20px;
-border-radius: 10px;
+left: 30rpx;
+top: 400rpx;
+width: 688rpx;
+height: 680rpx;
+line-height: 40rpx;
+border-radius: 20rpx;
 box-shadow: 1px 2px 3px 3px rgba(229, 229, 229, 1);
 border: 1px solid rgba(255, 255, 255, 1);
 }

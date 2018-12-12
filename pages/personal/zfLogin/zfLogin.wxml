@@ -7,11 +7,11 @@
     </view>
     <view class="uesrInput {{passwd_focus ? 'active' : ''}}">
       <text class="input-label">密码</text>
-      <input password="true" cursor-spacing="30" id="passwd" placeholder="初始密码为身份证后6位" bindinput="passwdInput" bindfocus="inputFocus" bindblur="inputBlur" value='{{passwd}}' />
+      <input password="true" cursor-spacing="50" id="passwd" placeholder="初始密码为身份证后6位" bindinput="passwdInput" bindfocus="inputFocus" bindblur="inputBlur" value='{{passwd}}' />
     </view>
     <view class="uesrInput {{yzm_focus ? 'active' : ''}}">
       <text class="input-label">验证码</text>
-      <input type="number" cursor-spacing="30" id="yzm" maxlength="4" placeholder="请输入验证码" bindinput="useryzmInput" bindfocus="inputFocus" bindblur="inputBlur" value='{{yzm}}' />
+      <input  cursor-spacing="30" id="yzm" maxlength="4" placeholder="请输入验证码" bindinput="useryzmInput" bindfocus="inputFocus" bindblur="inputBlur" value='{{yzm}}' />
     </view>
     <view class="flex">
       <image class='image' src="{{imgurl}}"></image>

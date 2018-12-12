@@ -1,0 +1,164 @@
+.top{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.inputBox{
+margin-top: 20rpx;
+width:380rpx;
+height: 50rpx;
+line-height: 24rpx;
+background-color: rgba(248, 248, 248, 1);
+color: rgba(16, 16, 16, 1);
+font-size:28rpx;
+font-family: Arial;
+padding:8rpx;
+border-radius:5rpx;
+}
+.searchButton{
+margin-top:20rpx;
+width: 130rpx;
+height: 50rpx;
+line-height: 44rpx;
+background-color: rgba(234, 144, 144, 1);
+color: rgba(255, 255, 255, 1);
+font-size: 28rpx;
+text-align: center;
+font-family: Arial;
+border-radius:5rpx;
+margin-left:40rpx;
+padding:8rpx;
+}
+.title{
+width: 99%;
+height: 100rpx;
+color: rgba(229, 28, 35, 1);
+font-size: 28rpx;
+font-family: Arial;
+}
+.author{
+width: 99%;
+height: 68rpx;
+color: rgba(16, 16, 16, 1);
+font-size: 28rpx;
+font-family: Arial;
+}
+.number{
+width: 99%;
+height: 60rpx;
+color: rgba(16, 16, 16, 1);
+font-size: 28rpx;
+font-family: Arial;
+}
+.standardCode{
+width: 99%;
+height: 60rpx;
+color: rgba(16, 16, 16, 1);
+font-size: 28rpx;
+font-family: Arial;
+
+}
+.pressInfor
+{
+width: 99%;
+height: 100rpx;
+color: rgba(16, 16, 16, 1);
+font-size: 28rpx;
+font-family: Arial;
+}
+.bookType{
+width: 99%;
+height: 60rpx;
+color: rgba(16, 16, 16, 1);
+font-size: 28rpx;
+font-family: Arial;
+}
+.searchList{
+margin-top: 80rpx;
+width: 98%;
+}
+.searchPart{
+display:flex;
+flex-direction:column;
+padding:10rpx;
+border:2rpx cornsilk solid;
+margin:32rpx;
+}
+.imageBox{
+width:44rpx;  
+height: 49rpx;
+}
+.set{
+margin-top:12rpx;
+margin-right:10rpx;
+width: 54rpx;
+height: 54rpx;
+padding:14rpx;
+}
+.emptyOrFailed{
+  display:flex;
+  justify-content: center;
+  font-size:50rpx;
+  height:70rpx;
+  width:100%; 
+  color:#45d9fd;
+}
+.changePage{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nowPage{
+  width:38%;
+  font-size:15px;
+  height:20px;
+  color:#0080ff;
+  display:flex;
+  justify-content: center;
+  border:2rpx#a3daff solid;
+}
+.lastButton{
+  width:28%;
+  font-size:15px;
+  height:20px;
+  display:flex;
+  justify-content: center;
+  color:#0080ff;
+  border:2rpx#a3daff solid;
+    
+}
+.nextButton{
+  width:28%;
+  font-size:15px;
+  height:20px;
+  display:flex;
+  justify-content: center;
+  color:#0080ff;
+  border:2rpx#a3daff solid;
+}
+.inputPage{
+  width:80%;
+  font-size:15px;
+  height:20px;
+  display:flex;
+  justify-content: center;
+  color:#0080ff;
+  border:2rpx#a3daff solid;
+}
+.confirm{
+   width:14%;
+  font-size:15px;
+  height:20px;
+  display:flex;
+  justify-content: center;
+  color:#0080ff;
+  border:2rpx#a3daff solid;
+}
+.manyChange{
+  height:0rpx;
+}
+.active
+{
+  color: yellow;
+}

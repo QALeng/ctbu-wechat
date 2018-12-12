@@ -8,7 +8,7 @@
 .weektitle2 {
   width: 14.28%;
   height: 100%;
-  font-size: 53%;
+  font-size: 20rpx;
   border: 1rpx silver solid;
 }
 

@@ -1,0 +1,78 @@
+/* pages/score/score.wxss */
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.dateClass {
+  width: 30%;
+  height: 50rpx;
+  padding: 10rpx;
+  display: flex;
+  justify-content: center;
+  /* color: #ff5f2e; */
+  font-size: 32rpx;
+}
+
+.redraw{
+   width: 20%;
+  height: 50rpx;
+  padding: 10rpx;
+  display: flex;
+  justify-content: center;
+  /* color: #ff5f2e; */
+  font-size: 32rpx;
+}
+.active{
+  color: red;
+}
+.termClass {
+  width: 20%;
+  height: 50rpx;
+  font-size: 32rpx;
+  padding: 10rpx;
+  display: flex;
+  justify-content: center;
+  /* color: #ff5f2e; */
+}
+
+.total {
+  display: flex;
+  width: 50%;
+  height: 50rpx;
+  font-size: 30rpx;
+  justify-content: center;
+  background-color: #fcbe32;
+  color: white;
+  line-height: 50rpx;
+  border-radius: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.courseClass {
+  display: flex;
+  flex: wrap;
+  width: 84%;
+  height: 60rpx;
+  line-height: 65rpx;
+  color: #ff5f2e;
+  font-size: 35rpx;
+  justify-content: space-between;
+  border-bottom: 4rpx #e1eef6 solid;
+}
+
+.courseBox {
+  display: flex;
+  justify-content: center;
+}
+.emptyOrFailed{
+  display:flex;
+  justify-content: center;
+  font-size:50rpx;
+  height:70rpx;
+  width:100%; 
+  color:#45d9fd;
+  margin-top:400rpx;
+}

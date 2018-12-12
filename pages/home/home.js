@@ -6,10 +6,10 @@ Page({
   data: {
     cores: [
       {name: '课表',img:"../../images/core/kb.png",url:"core/kb/kb"},
-      { name: '成绩', img: "../../images/core/cj.png", url: "core/cj/cj"  },
+      { name: '成绩', img: "../../images/core/cj.png", url: "core/score/score"  },
       { name: '自习', img: "../../images/core/classroom.png", url: "core/classroom/classroom"},
       { name: '我的借阅', img: "../../images/core/wdjy.png", url: "core/library/library"},
-      { name: '图书搜索', img: "../../images/core/booksearch.png", url: "core/booksearch/booksearch"},
+      { name: '图书搜索', img: "../../images/core/booksearch.png", url: "core/bookSearch/bookSearch"},
       { name: '一卡通', img: "../../images/core/card.png", url: "core/card/card"},
       { name: '考试', img: "../../images/core/exam.png", url: "core/exam/exam"},
       { name: '失物招领', img: "../../images/core/lost_find.png", url: "core/lost_find/lost_find" },

@@ -12,13 +12,43 @@ Page({
     yzm_focus: false,
     userid_focus: false,
     passwd_focus: false,
+    loginUrl:"",
+    name:"",
+    success:"",
+  },
+  thatData2: function (the) {
+    this.setData({
+      name: the.name,
+      success:the.success,
+    });
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function(options) {
 
+  onLoad: function(options) {
+    this.setData({
+      loginUrl: getApp().totalUrl.loginUrl,
+    })
+    var url = this.data.loginUrl;
+    var thatData = this.thatData;
+    wx.request({
+      url: url + 'code', //仅为示例，并非真实的接口地址
+      data: {
+        x: '',
+        y: ''
+      },
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function (res) {
+        var random = Math.round(Math.random() * 10000);
+        var imgUrl = url + "static/image/code2.jpg?" + random;
+        thatData(imgUrl);
+      }
+
+    });
   },
 
   /**
@@ -75,9 +105,10 @@ Page({
     });
   },
   buttonimage: function() {
+    var url = this.data.loginUrl;
     var thatData = this.thatData;
     wx.request({
-      url: 'http://127.0.0.1:5000/code', //仅为示例，并非真实的接口地址
+      url: url+'code', //仅为示例，并非真实的接口地址
       data: {
         x: '',
         y: ''
@@ -87,28 +118,40 @@ Page({
       },
       success: function(res) {
         var random = Math.round(Math.random() * 10000);
-        var imgUrl = "http://127.0.0.1:5000/static/image/code2.jpg?" + random;
+        var imgUrl = url+"static/image/code2.jpg?" + random;
         thatData(imgUrl);
       }
 
     });
   },
   mybind: function() {
+    var url = this.data.loginUrl;
+    var that=this.thatData2;
     wx.request({
-      url: 'http://127.0.0.1:5000/login/' + this.data.yzm + this.data.userid + '/' + this.data.passwd,
+      url: url+'login/' + this.data.yzm + this.data.userid + '/' + this.data.passwd,
       fail:function(res){
         console.log(res);
-      }
+      },
+      success:function(res){
+          console.log(res.data);
+          that(res.data);
+        wx.setStorage({
+          key:"name",
+          data:res.data.name,
+          key:"success",
+          data:res.data.success,
+        })
+      }  
     })
     wx.navigateTo({
-      url: "/pages/accessResults/accessResults"
+      url: "/pages/personal/test/test"
     })
   },
   useridInput: function(e) {
     this.setData({
       userid: e.detail.value
     });
-    if (e.detail.value.length >= 10) {
+    if (e.detail.value.length >= 50) {
       wx.hideKeyboard();
     }
   },

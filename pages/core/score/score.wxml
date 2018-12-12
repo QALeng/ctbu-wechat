@@ -1,0 +1,35 @@
+<view class="center">
+    <view class="dateClass">
+       <picker bindchange="changeDate" value="{{index}}" range="{{date}}">
+        {{date[index]}}
+        </picker>
+    </view>
+    <view class="termClass">
+      <picker bindchange="changeTerm" value="{{index2}}" range="{{term}}">
+       {{term[index2]}}
+      </picker>
+    </view>
+     <view class="redraw"  hover-class="active"bindtap="redrawButton">
+      刷新
+    </view>
+</view>
+
+
+<view class="center">
+  <view class="{{total}}">
+    {{totalGPA}}
+  </view>
+</view>
+
+
+<view >
+  <view wx:for="{{score}}" wx:key="{{score}}" wx:for-item="course">
+    <view  class="courseBox">
+      <view class="courseClass">
+        <view bindtap='look' data-text="{{course[0]}}">{{course[0]}}</view>
+        <view>综合成绩：{{course[5]}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="emptyOrFailed">{{feedBackData}}</view>

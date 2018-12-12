@@ -12,9 +12,10 @@ Page({
     userid: '',
     passwd: '',
     angle: 0,
-    imgurl: " "
+    imgurl: " ",
+    loginUrl: ""
   },
-  thatData: function (the) {
+  thatData: function(the) {
     this.setData({
       imgurl: the
     });
@@ -23,7 +24,29 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
+    this.setData({
+      loginUrl: getApp().totalUrl.loginUrl,
+    })
+    var thatData = this.thatData;
+    var url = this.data.loginUrl;
+    wx.request({
+      url: url + 'libraryCode', //仅为示例，并非真实的接口地址
+      data: {
+        x: '',
+        y: ''
+      },
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function(res) {
+        var random = Math.round(Math.random() * 10000);
+        console.log(res.data)
+        var len = res.data.length
 
+        var imgUrl = res.data + random;
+        thatData(imgUrl);
+      }
+    });
   },
 
   /**
@@ -81,8 +104,9 @@ Page({
   },
   buttonimage: function() {
     var thatData = this.thatData;
+    var url = this.data.loginUrl;
     wx.request({
-      url: 'http://127.0.0.1:5000/libraryCode', //仅为示例，并非真实的接口地址
+      url: url + 'libraryCode', //仅为示例，并非真实的接口地址
       data: {
         x: '',
         y: ''
@@ -90,11 +114,11 @@ Page({
       header: {
         'content-type': 'application/json'
       },
-      success: function (res) {
+      success: function(res) {
         var random = Math.round(Math.random() * 10000);
         console.log(res.data)
         var len = res.data.length
-        
+
         var imgUrl = res.data + random;
         thatData(imgUrl);
       }
@@ -103,8 +127,12 @@ Page({
 
   },
   mybind: function() {
+    var url = this.data.loginUrl;
     wx.request({
-      url: 'http://127.0.0.1:5000/libraryLogin/' + this.data.userid + '/' + this.data.passwd + '/' + this.data.yzm,
+      url: url + 'libraryLogin/' + this.data.userid + '/' + this.data.passwd + '/' + this.data.yzm,
+    })
+    wx.navigateTo({
+      url: "/pages/personal/test/test"
     })
   },
   useridInput: function(e) {

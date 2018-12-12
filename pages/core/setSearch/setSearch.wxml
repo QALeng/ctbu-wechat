@@ -1,0 +1,35 @@
+<view class="total">
+  <view class="section">
+  <view class="section__title">搜索类型</view>
+  <picker bindchange="searchType" value="{{selectType}}" range="{{array}}">
+    <view class="picker">
+      当前选择：{{array[selectType]}}
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <view class="section__title">搜索模式</view>
+  <picker bindchange="searchModel" value="{{selectModel}}" range="{{array2}}">
+    <view class="picker">
+      当前选择：{{array2[selectModel]}}
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <view class="section__title">搜索范围</view>
+  <picker bindchange="searchField" value="{{selectField}}" range="{{array3}}">
+    <view class="picker">
+      当前选择：{{array3[selectField]}}
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <view class="section__title">随书光盘</view>
+  <picker bindchange="isDisk" value="{{selectDisk}}" range="{{array4}}">
+    <view class="picker">
+      当前选择：{{array4[selectDisk]}}
+    </view>
+  </picker>
+</view>
+<button bindtap="back">确认提交</button>
+</view>

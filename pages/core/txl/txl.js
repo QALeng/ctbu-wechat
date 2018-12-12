@@ -61,5 +61,19 @@ Page({
    */
   onShareAppMessage: function () {
     
+  },
+  copyButton:function(res){
+    var numberText=res.target.dataset.text;
+    console.log(numberText);
+    wx.setClipboardData({
+      data: numberText,
+      // success: function (res) {
+      //   wx.getClipboardData({
+      //     success: function (res) {
+      //       console.log(res.data) // data
+      //     }
+      //   })
+      // }
+    })
   }
 })

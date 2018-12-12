@@ -1,1 +1,20 @@
+<!-- 余额 -->
 
+
+        <view class="ykt-card">
+            <view class="ykt-black-line"></view>
+            <view class="ykt-content">
+                <view class="ykt-ye">
+                    <text class="ykt-ye-name">余额</text>
+                    <view class="ykt-ye-money" >
+                        <text class="ykt-ye-value" >{{balance}}</text>元
+                    </view>
+                </view>
+            </view>
+        </view>
+       <view class="img">
+         <image class="icon" src="/images/buy.png"  mode="aspectFill"></image>
+       </view>
+         <!-- <text class="grid-remind">近10次交易情况：</text>
+        <view class="balance-consumption" bindtap="switchBtn"></view> -->
+   

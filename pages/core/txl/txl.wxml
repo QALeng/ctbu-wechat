@@ -3,234 +3,233 @@
 <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 办公室
-    <text class='wa-item-text'>62769900</text>
+    <text class='wa-item-text'  bindtap='copyButton' data-text='62769900'>62769900</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 兰花湖办
-    <text class='wa-item-text'>62768848</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62768848'>62768848</text>
   </view><view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 学生科
-    <text class='wa-item-text'>62768240</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62768240'>62768240</text>
   </view><view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 江北校区管委会 综合科办
-    <text class='wa-item-text'>67001189</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='67001189'>67001189</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 学生公寓管理委员会
-    <text class='wa-item-text'>62769645</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769645'>62769645</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 一卡通
-    <text class='wa-item-text'>62768509</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62768509'>62768509</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 软件开发部
-    <text class='wa-item-text'>62769284</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769284'>62769284</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 网络运行部（服务大厅）
-    <text class='wa-item-text'>62769284</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769284'>62769284</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 信息部
-    <text class='wa-item-text'>62769114</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769114'>62769114</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 采编部
-    <text class='wa-item-text'>62769435</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769435'>62769435</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 办公室
-    <text class='wa-item-text'>62769334</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769334'>62769334</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 广播站
-    <text class='wa-item-text'>62769514</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769514'>62769514</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 电视台
-    <text class='wa-item-text'>62769947</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769947'>62769947</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 校团委 南岸校区
-    <text class='wa-item-text'>6276004</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='6276004'>6276004</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 校团委 江北校区
-    <text class='wa-item-text'>67001026</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='67001026'>67001026</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 教务处 办公室
-    <text class='wa-item-text'>62769790</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769790'>62769790</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 教务处 教材料
-    <text class='wa-item-text'>62769147</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769147'>62769147</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 教务处 教学科
-    <text class='wa-item-text'>62769134</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769134'>62769134</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 教务处 运行科
-    <text class='wa-item-text'>62769149</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769149'>62769149</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 教务处 质量科
-    <text class='wa-item-text'>62768505</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62768505'>62768505</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 教务处 管理科
-    <text class='wa-item-text'>62769791</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769791'>62769791</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 招生就业处 招生办
-    <text class='wa-item-text'>62769696</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769696'>62769696</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 就业中心
-    <text class='wa-item-text'>62769207</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769207'>62769207</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 研究生处
-    <text class='wa-item-text'>62769491</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769491'>62769491</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 学管办
-    <text class='wa-item-text'>67001669</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='67001669<'>67001669</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 学生教育管理科
-    <text class='wa-item-text'>62769344</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769344'>62769344</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 国家助学贷款中心
-    <text class='wa-item-text'>62768118</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62768118'>62768118</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 继续教育学院 综合办
-    <text class='wa-item-text'>67001659</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='67001659'>67001659</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 自考办
-    <text class='wa-item-text'>62769128</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769128'>62769128</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 财务处 综合科
-    <text class='wa-item-text'>62768465</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62768465'>62768465</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 会计室
-    <text class='wa-item-text'>62769091</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769091'>62769091</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 江北财务室
-    <text class='wa-item-text'>67001040</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='67001040'>67001040</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 结算中心
-    <text class='wa-item-text'>62769087</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769087'>62769087</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 饮管中心（南岸）
-    <text class='wa-item-text'>62768413</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62768413'>62768413</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 饮管中心（江北）
-    <text class='wa-item-text'>67001108</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='67001108'>67001108</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 卫生科
-    <text class='wa-item-text'>62769349  62769307</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769349  62769307'>62769349  62769307</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 卫生科（江北）
-    <text class='wa-item-text'>67001032</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='67001032<'>67001032</text>
   </view><view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 图书馆 办公室（南岸）
-    <text class='wa-item-text'>62769329</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769329'>62769329</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 图书馆 办公室（江北）
-    <text class='wa-item-text'>67001065</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='67001065'>67001065</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 校友办
-    <text class='wa-item-text'>62769633</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769633'>62769633</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 收发室（南岸）
-    <text class='wa-item-text'>62769024</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62769024'>62769024</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 收发室（江北）
-    <text class='wa-item-text'>67001271</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='67001271'>67001271</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 邮政中心（南岸）
-    <text class='wa-item-text'>62768498</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62768498'>62768498</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 邮政中心（江北）
-    <text class='wa-item-text'>62768509</text>
+    <text class='wa-item-text' bindtap='copyButton' data-text='62768509'>62768509</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 文印中心
-    <text class='wa-item-text'>62769441</text>
+    <text class='wa-item-text'  bindtap='copyButton' data-text='62769441'>62769441</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 党委组织部
-    <text class='wa-item-text'>62769336</text>
+    <text class='wa-item-text'  bindtap='copyButton' data-text='62769336'>62769336</text>
   </view>
   <view class="wa-item wa-item-ava">
     <image class="item-img-round" src="/images/core/logo.png"></image>
 校报
-    <text class='wa-item-text'>62769814</text>
+    <text class='wa-item-text'  bindtap='copyButton' data-text='62769814'>62769814</text>
   </view>
-
 </view>

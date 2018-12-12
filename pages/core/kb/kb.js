@@ -9,6 +9,7 @@ Page({
     kb5_6: [],
     kb7_8: [],
     kb9_10: [],
+    loginUrl:"",
   },
   thatData: function (res) {
     this.setData({
@@ -23,7 +24,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-
+    this.setData({
+      loginUrl: getApp().totalUrl.loginUrl,
+    })
   },
 
   /**
@@ -31,8 +34,9 @@ Page({
    */
   onReady: function() {
     var thatData = this.thatData;
+    var url = this.data.loginUrl;
     wx.request({
-      url: 'http://127.0.0.1:5000/kb',
+      url: url+'kb',
       success: function (res) {
         console.log(res.data);
         console.log(res);

@@ -2,14 +2,16 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/list/list",
+    "pages/messages/messages",
+    "pages/messagesDetail/messagesDetail",
     "pages/home/home",
     "pages/pcenter/pcenter",
     "pages/core/card/card",
-    "pages/core/cj/cj",
+    "pages/core/score/score",
     "pages/core/classroom/classroom",
     "pages/core/kb/kb",
-    "pages/core/booksearch/booksearch" ,
+    "pages/core/bookSearch/bookSearch" ,
+    "pages/core/setSearch/setSearch",
     "pages/core/txl/txl",
     "pages/core/exam/exam",
     "pages/core/lecture/lecture",
@@ -23,7 +25,7 @@
     "pages/personal/zfLogin/zfLogin",
     "pages/personal/jpLogin/jpLogin",
     "pages/personal/tyLogin/tyLogin",
-    "pages/accessResults/accessResults"
+    "pages/personal/test/test"
   ],
   "window": {
     "navigationBarBackgroundColor": "#7acfa6",
@@ -39,7 +41,7 @@
     "selectedColor": "#9999FF",
     "list": [
       {
-        "pagePath": "pages/list/list",
+        "pagePath": "pages/messages/messages",
         "iconPath": "images/news.png",
         "selectedIconPath": "images/news@select.png",
         "text": "资讯"

@@ -1,0 +1,12 @@
+/* pages/last/last.wxss */
+.view{
+  /* font-style:  */
+  font-size:40rpx;
+  width:93%;
+  padding:4%;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

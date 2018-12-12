@@ -1,0 +1,3 @@
+<!--pages/personal/test/test.wxml-->
+<button class='bind' bindtap='bind'>进入主页面</button>
+<view>{{success}}</view>

@@ -1,0 +1,14 @@
+@import "../lib/weui.wxss";
+.picker{
+    padding: 13px;
+    background-color: #FFFFFF;
+}
+button{
+  background-color: lemonchiffon;
+}
+.total{
+  width:80%;
+  display:flex;
+  flex-direction: column;
+  padding:40rpx;
+}
