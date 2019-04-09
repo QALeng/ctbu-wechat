@@ -46,10 +46,10 @@ App({
     // visitUrl: "http://127.0.0.1:5000/",
     // messageUrl: 'http://127.0.0.1:5000/',
     // loginUrl:'http://127.0.0.1:5000/'
-    bookSearchUrl: "https://qinge.mynatapp.cc/",
-    visitUrl: "https://qinge.mynatapp.cc/",
-    messageUrl: 'https://qinge.mynatapp.cc/',
-    loginUrl: 'https://qinge.mynatapp.cc/'
+    bookSearchUrl: "https://zwz.iocollege.com/",
+    visitUrl: "https://zwz.iocollege.com/",
+    messageUrl: 'https://zwz.iocollege.com/',
+    loginUrl: 'https://zwz.iocollege.com/'
     // bookSearchUrl: "https://qxmu.mynatapp.cc/",
     // visitUrl: "https://qxmu.mynatapp.cc/",
     // messageUrl: "https://qxmu.mynatapp.cc/",
