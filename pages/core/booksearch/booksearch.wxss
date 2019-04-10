@@ -32,47 +32,19 @@ padding:8rpx;
 }
 .title{
 width: 99%;
-height: 100rpx;
+line-height: 2;
 color: rgba(229, 28, 35, 1);
 font-size: 28rpx;
 font-family: Arial;
 }
-.author{
-width: 99%;
-height: 68rpx;
-color: rgba(16, 16, 16, 1);
-font-size: 28rpx;
-font-family: Arial;
-}
-.number{
-width: 99%;
-height: 60rpx;
-color: rgba(16, 16, 16, 1);
-font-size: 28rpx;
-font-family: Arial;
-}
-.standardCode{
-width: 99%;
-height: 60rpx;
-color: rgba(16, 16, 16, 1);
-font-size: 28rpx;
-font-family: Arial;
 
-}
-.pressInfor
-{
+.detail{
 width: 99%;
-height: 100rpx;
+/* height: 60rpx; */
 color: rgba(16, 16, 16, 1);
 font-size: 28rpx;
 font-family: Arial;
-}
-.bookType{
-width: 99%;
-height: 60rpx;
-color: rgba(16, 16, 16, 1);
-font-size: 28rpx;
-font-family: Arial;
+line-height: 2;
 }
 .searchList{
 margin-top: 80rpx;
